@@ -2,7 +2,7 @@
 
 This repository provides a deep learning-based solution for detecting deepfake videos using a combination of Convolutional Neural Networks (CNNs) and Long Short-Term Memory (LSTM) networks. The system analyzes uploaded videos and predicts whether the video is real or deepfake using a trained deep learning model.
 
-![Screenshot (327)](https://github.com/user-attachments/assets/923817d3-973d-4cae-8579-1a0e07e53ef2)
+![image](https://github.com/user-attachments/assets/550119c7-cbd5-4160-b8e5-0dc86bc79115)
 
 ## Features
 - **Streamlit Web App:** A user-friendly interface for uploading and analyzing videos.
