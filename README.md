@@ -21,3 +21,23 @@ The gru LSTM model was trained to classify sequences of videos as deepfake or re
 
 
 - **Access Training Notebook:** [Notebook](https://github.com/samolubukun/Deepfake-Video-Detection/tree/main/Notebook)
+- **Dataset Used:** [Subset of the Deep Fake Detection (DFD) Entire Original Dataset](https://www.kaggle.com/datasets/rahulkumarroy92/mini-face-forensics)
+
+
+## How to Use
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/samolubukun/Deepfake-Video-Detection.git
+   cd Deepfake-Video-Detection
+   ```
+
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Run the Streamlit app:
+   ```bash
+   streamlit run app.py
+   ```
