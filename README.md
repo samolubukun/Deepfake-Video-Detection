@@ -10,3 +10,11 @@ This repository provides a deep learning-based solution for detecting deepfake v
 - **LSTM-Based Classification** Sequences of extracted features are processed through an LSTM network for classification.
 - **Efficient Face Detection:** MTCNN is used to detect faces in videos, ensuring accurate feature extraction.
 - **High Accuracy:** The trained model achieves an overall accuracy of 81.25% on the test dataset.
+
+## Model Summary
+The gru LSTM model was trained to classify sequences of videos as deepfake or real:
+- **Architecture:** Feature extractor (InceptionV3, outputting 2048-dimensional feature vectors). LSTM network with two GRU layers (16 and 8 units respectively).
+- **Performance Metrics:**
+  - Accuracy: 81.27%
+  - Precision: 87.0%
+  - Recall: 86.0%
