@@ -10,7 +10,7 @@ import keras
 IMG_SIZE = 224
 MAX_SEQ_LENGTH = 20
 NUM_FEATURES = 2048
-s
+
 # Load pre-trained model and vocabulary
 deepfake_model = load_model('video_classifier_full_model.h5')
 vocabulary2 = np.load('label_processor_vocabulary.npy', allow_pickle=True)
