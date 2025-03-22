@@ -18,3 +18,6 @@ The gru LSTM model was trained to classify sequences of videos as deepfake or re
   - Accuracy: 81.27%
   - Precision: 87.0%
   - Recall: 86.0%
+
+
+- **Access Training Notebook:** [Notebook](https://github.com/samolubukun/Deepfake-Video-Detection/tree/main/Notebook)
